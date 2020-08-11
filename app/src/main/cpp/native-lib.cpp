@@ -3,6 +3,7 @@
 #include <cmath>
 #include <algorithm>
 
+<<<<<<< HEAD
 extern "C" JNIEXPORT jstring JNICALL
 
 Java_exdo_planets_MainActivity_stringFromJNI(
@@ -21,6 +22,9 @@ Java_exdo_planets_MainActivity_factorial(JNIEnv *env, jobject thiz, jlong x) {
     }
     return t ;
 }
+=======
+
+>>>>>>> 0cf48eb... 1st commit
 class Planet{
 public:
     float x;
