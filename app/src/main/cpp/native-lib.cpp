@@ -3,28 +3,6 @@
 #include <cmath>
 #include <algorithm>
 
-<<<<<<< HEAD
-extern "C" JNIEXPORT jstring JNICALL
-
-Java_exdo_planets_MainActivity_stringFromJNI(
-        JNIEnv* env,
-        jobject /* this */) {
-    std::string hello = "Hello from C++";
-    return env->NewStringUTF(hello.c_str());
-}
-extern "C" JNIEXPORT jlong JNICALL
-Java_exdo_planets_MainActivity_factorial(JNIEnv *env, jobject thiz, jlong x) {
-    unsigned long long t=1;
-    while (x>0)
-    {
-        t*=x;
-        x--;
-    }
-    return t ;
-}
-=======
-
->>>>>>> 0cf48eb... 1st commit
 class Planet{
 public:
     float x;
