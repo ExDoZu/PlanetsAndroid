@@ -14,6 +14,9 @@ class MainActivity : AppCompatActivity() {
         bttn_2d.setOnClickListener {
             startActivity(Intent(this, Activity_2d::class.java))
         }
+        bttn_3d.setOnClickListener {
+            startActivity(Intent(this, GameOfLifeActivity::class.java))
+        }
         // Example of a call to a native method
         //sample_text.text = factorial(20).toString()//stringFromJNI()
     }

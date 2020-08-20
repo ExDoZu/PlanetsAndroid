@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="pause">Пауза</string>
+    <string name="settings">Настройки</string>
+    <string name="weight">Масса</string>
+    <string name="y_coordinate">Y координата</string>
+    <string name="x_coordinate">X координата</string>
+    <string name="x_axis_speed">Скорость по оси X</string>
+    <string name="y_axis_speed">Скорость по оси Y</string>
+    <string name="radius">Радиус</string>
+    <string name="set_settings_as_default">Сделать настройками по-умолчанию</string>
+    <string name="draw_path_of_planets">Отрисовывать пройденный путь</string>
+    <string name="create_a_planet">Создать планету</string>
+    <string name="gravity">Гравитация</string>
+    <string name="conway_s_game_of_life">Игра \"Жизнь\"</string>
+</resources>

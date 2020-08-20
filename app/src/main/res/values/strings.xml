@@ -1,6 +1,35 @@
 <resources>
-    <string name="app_name">Planets</string>
-    <string name="title_activity_2d">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="app_name" translatable="false">ExDo Games</string>
+    <string name="title_activity_2d" translatable="false">FullscreenActivity</string>
+    <string name="dummy_button" translatable="false">Dummy Button</string>
+    <string name="dummy_content" translatable="false">DUMMY\nCONTENT</string>
+    <string name="pause">Pause</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings2_d" translatable="false">Settings2DActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="weight">Weight</string>
+    <string name="y_coordinate">Y coordinate</string>
+    <string name="x_coordinate">X coordinate</string>
+    <string name="x_axis_speed">X-axis speed</string>
+    <string name="y_axis_speed">Y-axis speed</string>
+    <string name="radius">Radius</string>
+    <string name="set_settings_as_default">Set settings as default</string>
+    <string name="draw_path_of_planets">Draw path of planets</string>
+    <string name="create_a_planet">Create a planet</string>
+    <string name="gravity">Gravity</string>
+    <string name="conway_s_game_of_life">Conway\'s Game of Life</string>
 </resources>
