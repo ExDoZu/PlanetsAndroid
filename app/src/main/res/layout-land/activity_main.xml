@@ -32,8 +32,17 @@
             android:id="@+id/bttn_3d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
             android:background="#7986CB"
             android:text="@string/conway_s_game_of_life"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/bttn_4d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#7986CB"
+            android:text="@string/circle"
             android:textSize="30sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

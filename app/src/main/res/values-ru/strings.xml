@@ -13,4 +13,5 @@
     <string name="create_a_planet">Создать планету</string>
     <string name="gravity">Гравитация</string>
     <string name="conway_s_game_of_life">Игра \"Жизнь\"</string>
+    <string name="circle">Круг</string>
 </resources>

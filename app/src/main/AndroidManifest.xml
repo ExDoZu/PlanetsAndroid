@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Circle"
+            android:screenOrientation="landscape"/>
+        <activity
             android:name=".GameOfLifeActivity"
-            android:screenOrientation="landscape"
-            />
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Settings2D"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".Activity_2d"
             android:screenOrientation="landscape" />
